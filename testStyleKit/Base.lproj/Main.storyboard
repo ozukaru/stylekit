@@ -18,29 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3nV-Pw-kYS" customClass="styleKitview" customModule="testStyleKit" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="10" width="414" height="736"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3nV-Pw-kYS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="746"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIX-dE-DUn">
-                                <rect key="frame" x="20" y="666" width="374" height="50"/>
-                                <color key="backgroundColor" red="0.088054053485393524" green="0.50079810619354248" blue="0.9809609055519104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="cNk-TE-U87"/>
-                                </constraints>
-                                <state key="normal" title="Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GIX-dE-DUn" secondAttribute="trailing" constant="20" id="7is-Xh-R7q"/>
-                            <constraint firstItem="3nV-Pw-kYS" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Ewk-S2-ZkO"/>
-                            <constraint firstItem="GIX-dE-DUn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HU0-Tx-5id"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GIX-dE-DUn" secondAttribute="bottom" constant="20" id="LRu-JH-8up"/>
+                            <constraint firstItem="3nV-Pw-kYS" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" constant="10" id="Ewk-S2-ZkO"/>
                             <constraint firstItem="3nV-Pw-kYS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="fIQ-Us-XQr"/>
-                            <constraint firstItem="3nV-Pw-kYS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="pSh-t6-pDX"/>
+                            <constraint firstItem="3nV-Pw-kYS" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-5" id="pSh-t6-pDX"/>
                             <constraint firstItem="3nV-Pw-kYS" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="q6j-TG-Ijx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

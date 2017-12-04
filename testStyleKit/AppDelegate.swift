@@ -18,19 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        /*
-        window = UIWindow(frame:UIScreen.main.bounds)
-        let updateView = updateViewController()
-        window?.rootViewController = updateView
-        window?.makeKeyAndVisible()*/
-        
-        if version.checkVersion(urlComprobacion:URL(string:"http://192.168.213.90:8888/versiones.php")!) == "Actualizada"{
-            window = UIWindow(frame:UIScreen.main.bounds)
-            let updateView = updateViewController()
-            window?.rootViewController = updateView
-            window?.makeKeyAndVisible()
-        }
-    
+          version.checkVersion(urlComprobacion:URL(string:"http://192.168.213.90:8888/versiones.php")!)
         
         return true
     }
